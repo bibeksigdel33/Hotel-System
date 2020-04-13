@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
-import FeaturedRoom from "../components/FeaturedRoom";
+import FeaturedRooms from "../components/FeaturedRooms";
 
 //Function component which can be imported by others have export default keyword used in front of them.
 export default function Home() {
@@ -17,7 +17,7 @@ return(
     </Hero>
     
     <Services />
-    <FeaturedRoom />
+    <FeaturedRooms />
     </>
 );
 }
